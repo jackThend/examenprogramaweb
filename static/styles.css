@@ -1,0 +1,88 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 50px;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: #333;
+}
+
+/* Estilo para los botones */
+button {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #8a2be2; /* Color inicial para Ejercicio 1 */
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+/* El segundo botón tendrá otro color */
+button:nth-child(2) {
+    background-color: #32cd32; /* Color para Ejercicio 2 */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    opacity: 0.8;
+
+
+
+/* Aqui empieza ejercicio 1 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 50%;
+    margin: 100px auto; /* Mantiene el contenedor centrado */
+    padding: 40px; /* Aumenta el padding para más separación dentro del cuadro */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px; /* Aumenta el espacio debajo del título */
+    font-size: 28px;
+    color: #343a40;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px; /* Aumenta el espacio debajo de las etiquetas */
+    text-align: left;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 15px; /* Aumenta el padding interno de los cuadros de entrada */
+    margin-bottom: 25px; /* Aumenta el espacio entre los cuadros de entrada */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Color azul del botón */
+    color: white;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Aumenta el espacio entre el último cuadro de entrada y el botón */
+    width: 100%; /* Hace que el botón ocupe el ancho completo */
+}
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado - Compra de Pintura</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado de la Compra</h1>
+        <p>Nombre del cliente: {{ nombre }}</p>
+        <p>Total sin descuento: ${{ total_sin_descuento }}</p>
+        <p>El descuento es: ${{ total_descuento }}</p>
+        <p>El total a pagar es de: ${{ total_con_descuento }}</p>
+        <a href="/ejercicio1"><input type="submit" value="Volver" class="boton-azul"></a>
+    </div>
+</body>
+</html>
